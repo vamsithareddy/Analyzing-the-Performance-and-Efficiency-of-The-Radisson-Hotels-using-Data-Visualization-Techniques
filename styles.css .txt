@@ -1,0 +1,92 @@
+/* styles.css */
+
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url('hero.jpg');
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 150px 0;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF9800;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Rooms section styles */
+.rooms {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.room {
+    margin: 20px;
+}
+
+.room img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/* Dining section styles */
+.dining {
+    background-color: #F5F5F5;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.restaurant {
+    margin: 20px;
+}
+
+.restaurant img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
